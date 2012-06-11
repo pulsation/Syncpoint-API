@@ -1,6 +1,6 @@
 var test = require('tap').test,
   coux = require('coux').coux, 
-  e = require('errLog').e,
+  e = require('errlog').e,
   docstate = require('docstate'), 
   testConfig = require('./testConfig'), 
   userChannelControl = require('../lib/userChannelControl'),

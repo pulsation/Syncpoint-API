@@ -1,7 +1,7 @@
 var SyncpointAPI = require('../lib/syncpoint-api'),
     coux = require('coux'),
     tap = require("tap"), test = tap.test,
-    e = require('errLog').e,
+    e = require('errlog').e,
     testConfig = require('./testConfig');
 
 coux.del([testConfig.host, testConfig.users_db], function() {

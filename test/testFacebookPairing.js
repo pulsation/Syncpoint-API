@@ -18,7 +18,7 @@ var SyncpointAPI = require('../lib/syncpoint-api'),
     assert = require("assert"),
     docstate = require("docstate"),
     tap = require("tap"), test = tap.test, plan = tap.plan,
-    e = require('errLog').e;
+    e = require('errlog').e;
 
 // tests should also be capable of testing other implementations
 // eg: integration tests

@@ -3,7 +3,7 @@
 // 
 
 var coux = require('coux').coux,
-    e = require('errLog').e,
+    e = require('errlog').e,
     syncpointHelpers = require('../lib/syncpointHelpers'),
     config;
 

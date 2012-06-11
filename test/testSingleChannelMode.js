@@ -3,7 +3,7 @@
 var SyncpointAPI = require('../lib/syncpoint-api'),
     coux = require('coux'),
     tap = require("tap"), test = tap.test,
-    e = require('errLog').e;
+    e = require('errlog').e;
 
 coux.log = ["GET", "PUT", "POST", "DELETE"];
 
